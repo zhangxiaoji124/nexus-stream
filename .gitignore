@@ -1,0 +1,40 @@
+# CMake & Build artifacts
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+CTestTestfile.cmake
+Testing/
+
+# Compiled binaries & libraries
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.exe
+nexus_server
+nexus_pusher
+nexus_bench
+nexus_tests
+
+# Generated test media files
+*.flv
+*.h264
+*.aac
+*.mp4
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+*~
+*.swp
+
+# Secret files
+token.txt
+.env
+
